@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,7 +18,7 @@
 
             <section id="area"> 
 
-                <textarea class="caja" onkeypress="return ((event.charCode >= 48 && event.charCode <= 57) ||  (event.charCode >= 97 && event.charCode <= 122))"  placeholder="ingrese el texto aqui"></textarea>
+                <textarea class="caja" onkeypress="return ( event.charCode == [32] || (event.charCode >= 48 && event.charCode <= 57) || (event.charCode >= 97 && event.charCode <= 122) || (event.charCode >= 33 && event.charCode <= 64) )"  placeholder="ingrese el texto aqui"></textarea>
 
                 <div class="textop">
                     <p> Solo letras minúsculas y sin acentos</p>
